@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Sun04&apos; to &apos;arrays&apos;&#x0A;- Original project: &apos;Arrayhome&apos;&#x0A;- Original element: &apos;Sun04&apos;&#x0A;- Renamed element: &apos;arrays&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Sun04&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Sun04.java[Sun04" matchStrategy="1" name="arrays" qualified="false" references="true" similarDeclarations="false" stamp="1685858322439" textual="false" version="1.0"/>
+</session>

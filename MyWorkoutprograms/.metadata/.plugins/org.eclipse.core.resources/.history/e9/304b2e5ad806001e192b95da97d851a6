@@ -1,0 +1,69 @@
+package Realtimepackage;
+
+public class Student {
+	private String name;    //ALL instance variable are private.
+	private int reg_no;
+	private String dept;
+	private String college_name;
+	private final static String Ins_name="Welcome Payilagam";
+	
+	Student(String name) //constructors to initialize the instance variable
+	{                        //in case of customer come with only name.It will works.
+		this.name=name;
+	}
+	Student(String name,int reg_no) //If customer come with name and roll_no.
+	{
+        this.name=name;
+		this.reg_no=reg_no;
+	}
+	Student(String name,int reg_no,String dept)
+	{
+		this.name=name;
+		this.reg_no=reg_no;
+		this.dept=dept;
+	}
+	Student(String name,int reg_no,String dept,String college_name)
+	{
+		this.name=name;
+		this.reg_no=reg_no;
+		this.dept=dept;
+		this.college_name=college_name;
+	}
+	Student()
+	{
+		System.out.println("Please give me your Details ");
+	}
+	void setreg_no(int reg_no)
+	{
+		this.reg_no=reg_no;
+	}
+	void setdept(String dept)
+	{
+		this.dept=dept;
+	}
+	void setcollege_name(String college_name)
+	{
+		this.college_name=college_name;
+	}
+	int getreg_no()
+	{
+		return reg_no;
+	}
+	String getdept()
+	{
+		return dept;
+	}
+	String getcollege_name()
+	{
+		return college_name;
+	}
+    public String toString()
+    {
+    	return(Ins_name +" "+"Studen name is "+name+" "+"Stydent reg no is "+reg_no+" "+"Student college name is "+college_name+" "+"Student department is "+dept);
+    	
+    	
+    	
+    }
+    
+    
+}

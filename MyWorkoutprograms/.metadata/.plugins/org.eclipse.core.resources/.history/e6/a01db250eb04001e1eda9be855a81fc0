@@ -1,0 +1,68 @@
+package Arraymid;
+
+public class Wed07 
+{
+	public static void main(String[] args) 
+	{
+		Wed07 obj=new Wed07();
+		int brr[][]=obj.sum_column();
+	    obj.transpose(brr);
+		
+	}
+	int [][]sum_column()
+	{
+		System.out.println("Given array is ");
+		int a=1;
+		int arr[][]=new int[5][5];
+		for(int i=0;i<arr.length;i++)
+		{
+			for(int j=0;j<arr[i].length;j++)
+			{
+				arr[i][j]=a;
+				a++;
+				
+			}
+		}
+		
+		for(int i=0;i<arr.length;i++)
+		{
+			for(int j=0;j<arr[i].length;j++)
+			{
+				System.out.print(arr[i][j]+" ");
+			}
+			System.out.println();
+		}
+		System.out.println("------------");
+		for(int i=0;i<arr.length;i++)
+		{
+			int sum=0;
+			for(int j=0;j<arr[i].length;j++)
+			{
+				sum=sum+arr[j][i];
+			}
+			System.out.println("Sum of the column wise in "+i+" th column "+sum);
+		}
+		
+		return arr;
+	}
+	void transpose(int crr[][])
+	{
+		int drr[][]=new int[crr.length][crr[0].length];
+		for(int i=0;i<crr.length;i++)
+		{
+			for(int j=0;j<crr[i].length;j++)
+			{
+				drr[i][j]=crr[j][i];
+			}
+		}
+		for(int i=0;i<drr.length;i++)
+		{
+			for(int j=0;j<drr[i].length;j++)
+			{
+				System.out.println(drr[i][j]);
+			}
+		}
+	}
+			
+
+}

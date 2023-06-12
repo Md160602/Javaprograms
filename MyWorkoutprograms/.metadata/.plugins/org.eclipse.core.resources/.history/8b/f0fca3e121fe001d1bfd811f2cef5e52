@@ -1,0 +1,21 @@
+package Arrayfirst;
+
+public class Testarray 
+{
+	void pattern()
+	{
+		int i=0;
+		while(i<5)
+		{
+	      System.out.print(i+" ");
+			
+		}
+	}
+	public static void main(String[] args) 
+	{
+		Testarray obj=new Testarray();
+		obj.pattern();
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package Mathamatical;
+
+public class Recussion {
+	public static void main(Stsing args[]) 
+	{
+		
+
+	}
+	public int prime2()
+	{
+		int count=10;
+		n=2;
+		if(n%2==0)
+		{
+			System.out.println("Its not a prime");
+		}
+		n++;
+		else
+		{
+			System.out.println("Its a prime");
+			return prime2(n++);
+		}
+	}
+
+}

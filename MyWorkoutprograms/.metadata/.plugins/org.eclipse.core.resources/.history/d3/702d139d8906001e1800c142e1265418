@@ -1,0 +1,11 @@
+package Realtimepackage;
+
+public class Studentobjects 
+{
+	public static void main(String[] args)
+	{
+		Student dev=new Student ("Mahadevan",19011018,"B.sc","Prist");
+		
+	}
+
+}

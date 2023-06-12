@@ -1,0 +1,47 @@
+package Mathamatical;
+
+public class Pattern { public static void main (String args[])
+	{
+	   Pattern obj1=new Pattern();
+	   obj1.matrix();
+	   obj1.pattern2();
+	
+	}
+    public void matrix()
+    {
+    	int row=1;
+    	while(row<5)
+    	{
+    		int col=1;
+    		while(col<=5)
+    		{
+    			System.out.print("* ");
+    			col++;
+    		}
+    		row++;
+    		System.out.println();
+    	}
+    	System.out.println("______________");
+    }
+    public void pattern2()
+    {
+    	int row=1;
+    	while(row<=4)
+    	{
+    		int col=1;
+    		while(col<=5)
+    		{
+    			if(row<=2 && col==3)
+    			{
+    				System.out.print(" ");
+    				break;
+    			}
+    			System.out.print("* ");
+    			col++;
+    		}
+    		System.out.println();
+    		row++;
+    	}
+    }
+
+}

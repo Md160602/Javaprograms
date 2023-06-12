@@ -1,0 +1,17 @@
+package Arraymid;
+
+public class Thur08 
+{
+	public static void main(String[] args) {
+		
+	}
+	void method()
+	{
+		 byte arr[]= {1,23,55};
+		 String str=new String(arr);
+		 System.out.println(arr);
+		
+		
+	}
+
+}

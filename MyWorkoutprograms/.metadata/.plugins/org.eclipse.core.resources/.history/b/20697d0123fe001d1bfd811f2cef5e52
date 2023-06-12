@@ -1,0 +1,23 @@
+package Arrayfirst;
+
+public class Testarray 
+{
+	void pattern()
+	{
+		int i=5;
+		while(i>0)
+		{
+	      System.out.print(i+" ");
+	      i--;
+			
+		}
+		System.out.println(i);
+	}
+	public static void main(String[] args) 
+	{
+		Testarray obj=new Testarray();
+		obj.pattern();
+		
+	}
+
+}

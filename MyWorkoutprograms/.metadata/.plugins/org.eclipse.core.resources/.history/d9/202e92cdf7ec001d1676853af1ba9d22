@@ -1,0 +1,33 @@
+package Mathamatical;
+
+public class Triangle {
+	public static void main(String args[])
+	{
+		
+	}
+	public void right_angle()
+	{
+		int row=1;
+		while(row<=5)
+		{
+			int col=1;
+			while(col<=5)
+			{
+				if(col<=4)
+				{
+					System.out.print(" ");
+					col++;
+				}
+				
+				else
+				{
+					System.out.print("1");
+				}
+			}
+			row++;
+			System.out.println();
+			
+		}
+	}
+
+}

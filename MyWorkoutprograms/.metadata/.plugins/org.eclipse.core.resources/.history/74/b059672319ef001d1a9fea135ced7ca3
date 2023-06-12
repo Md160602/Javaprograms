@@ -1,0 +1,62 @@
+package For_loop;
+
+public class Fivthfive {
+	public static void main(String[] args) 
+	{
+		Fivthfive obj5=new Fivthfive();
+		obj5.neon();
+		obj5.magic();
+		
+	}
+	public void neon()
+	{
+		int num=9;
+		int square=num*num;
+		int sum_ans=0;
+		for(int sum=square;square>0;square=square/10)
+		{
+			int a=square%10;
+			sum_ans=sum_ans+a;
+		}
+		if(sum_ans==num)
+		{
+			System.out.println(sum_ans+" It is a neon number");
+		}
+		else
+		{
+			System.out.println(sum_ans+" It is not a neon number");
+		}
+		System.out.println("----------------------------");
+	}
+	public void magic()
+	{
+		int num=1458;
+		int sum=0;
+		for(;num>0;num=num/10)
+		{
+			int a=num%10;
+			sum=sum+a;
+			
+		}
+	
+		System.out.println(sum+ " is a sum of the number");
+		int rev=0;
+		for(;sum>0;sum=sum/10)
+		{
+			int a=sum%10;
+			rev=rev*10+a;
+		}
+		System.out.println(rev+" Reverse of given number");
+		int answer=sum*rev;
+		if(num==answer)
+		{
+			System.out.println(num+" It is magic number");
+		}
+		else
+		{
+			System.out.println(num+" It is not a magic number");
+		}
+		
+	}
+
+}

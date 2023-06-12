@@ -1,0 +1,19 @@
+package Arraymid;
+
+public class Thur08 
+{
+	public static void main(String[] args) 
+	{
+		
+		byte arr[]= {65,75};
+		 String str=new String(arr);
+		System.out.println(str);
+	}
+	void method()
+	{
+		 
+		
+		
+	}
+
+}

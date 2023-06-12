@@ -1,0 +1,30 @@
+package Realtimepackage;
+
+public class Studentobjects 
+{
+	public static void main(String[] args)
+	{/*
+		 * Student dev=new Student ("Mahadevan",2023001,"B.sc","Prist");
+		 * System.out.println(dev); //Print the object only and hence prove overrode the
+		 * object class in String method. System.out.println("----------"); Student
+		 * lajeem=new Student("lajeem"); System.out.println(lajeem);
+		 * lajeem.setreg_no(2023002); lajeem.getreg_no(); System.out.println(lajeem);
+		 * System.out.println("----------"); Student kavin =new
+		 * Student("Kavin",2023003,"B.E cs"); kavin.setcollege_name("Govt college");
+		 * kavin.getcollege_name(); System.out.println(kavin);
+		 * System.out.println("----------"); Student senthil=new
+		 * Student("Senthil",2023004); senthil.setdept("B.E cs"); senthil.getdept();
+		 * System.out.println(senthil); System.out.println("----------"); Student
+		 * dinesh=new Student(); System.out.println(dinesh);
+		 */
+		String s="Welcome";
+		String s1="WELCOME";
+		String s2="Welcome";
+		System.out.println(s.hashCode());
+		System.out.println(s1.hashCode());
+		System.out.println(s2.hashCode());
+		System.out.println(s1.equals(s2));
+		
+	}
+
+}

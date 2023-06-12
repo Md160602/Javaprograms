@@ -1,0 +1,21 @@
+package Arraymid;
+
+public class Thur08 
+{
+	public static void main(String[] args) 
+	{
+		
+		byte arr[]= {77,68};
+		 String str=new String(arr);
+		System.out.println(str);
+		String name="MAHADEVAN";
+		System.out.println(name);
+	}
+	void method()
+	{
+		     
+		
+		
+	}
+
+}

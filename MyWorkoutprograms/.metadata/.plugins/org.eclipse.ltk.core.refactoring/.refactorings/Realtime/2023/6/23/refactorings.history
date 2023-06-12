@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Realtimepackage.Emplayee&apos; to &apos;Employe&apos;&#x0A;- Original project: &apos;Realtime&apos;&#x0A;- Original element: &apos;Realtimepackage.Emplayee&apos;&#x0A;- Renamed element: &apos;Realtimepackage.Employe&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Emplayee&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Realtimepackage{Emplayee.java[Emplayee" matchStrategy="1" name="Employe" qualified="false" references="true" similarDeclarations="false" stamp="1686369508895" textual="false" version="1.0"/>
+</session>
